@@ -1,0 +1,23 @@
+.main {
+    width: 300px;
+  .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    .left {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      span {
+        margin-left: 16px;
+        font-size: 24px;
+        font-weight: bold;
+      }
+    }
+    .right {
+      cursor: pointer;
+    }
+  }
+}
